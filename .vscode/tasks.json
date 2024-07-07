@@ -76,7 +76,10 @@
             "dependsOn": [
                 "docker-build: debug"
             ],
-            "dockerRun": {},
+            "dockerRun": { 
+                            "env": { "VAR_TEST":"--VALUE VAR--"  }
+                },
+            "platform": "netCore",
             "netCore": {
                 "appProject": "${workspaceFolder}/src/webapi.csproj",
                 "enableDebugging": true

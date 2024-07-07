@@ -1,0 +1,14 @@
+{
+
+/*     "docker.commands.runInteractive": [
+    {
+      "label": "Default run command",
+      "template": "docker run --rm -it ${exposedPorts} ${tag}"
+    },
+    {
+      "label": "docker-run: debug squidfunk",
+      "template": "docker run --rm -it ${exposedPorts} --env VAR_TEST=xxx",
+      "match": "squidfunk"
+    } 
+  ]*/
+}
